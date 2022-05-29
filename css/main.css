@@ -1,0 +1,33 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.movie {
+    background-color: rgb(56, 27, 160);
+    color: white;
+    height: 80px;
+}
+
+.top {
+    margin-top: -38px;
+}
+
+.card {
+    background-color: #aaa;
+    color: white;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.listbook {
+    color: white;
+    font-weight: 900;
+    background-color: #aaa;
+    height: auto;
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}

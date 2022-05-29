@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <div class="row movie">
+        <div class="col-md-6">
+            <div>
+                <h3>Favorite Movies</h3>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div>
+                <button id="add" class="btn btn-warning show float-right"> ADD Movie</button>
+            </div>
+        </div>
+    </div>
+    <div class="container col-md-6">
+
+        <div id="card" class="card ">
+            <div id="hide" class="hide">
+                <div class="card-body">
+                    <div class="form-group">
+                        <label>Enter Your Movie</label>
+                        <input type="text" class="form-control namebook" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Choose Your image</label>
+                        <input type="text" class="form-control imgs">
+                    </div>
+
+                    <div class="form-group">
+                        <label>Rate Your Movie</label>
+                        <input type="number" class="form-control rate" placeholder="Your Rate must be less or equal than ten">
+                    </div>
+                    <div class="text-center d-grid gap-2">
+                        <button class="btn btn-primary pr-4 pl-4 addbook" type="button">Add </button>
+                        <button class="btn btn-primary pr-4 pl-4 closes" type="button">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="alert alert-danger text-center">
+                    <h6 class="message">Favourit Movie Database please add your Movie</h6>
+                </div>
+                <div class="listbook" id="list">
+                    <h4></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
